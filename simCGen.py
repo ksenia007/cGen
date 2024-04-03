@@ -1,3 +1,8 @@
+"""
+The SimCGen class is adapted from the SimCLR implementation available at
+https://lightning.ai/docs/pytorch/LTS/notebooks/course_UvA-DL/13-contrastive-learning.html
+"""
+
 import pytorch_lightning as pl
 import torch
 import torch.nn.functional as F
